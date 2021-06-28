@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Appointment</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="info.html">Info</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>We will be in touch soon!</h1>
+  </header>
+
+    <script>
+      printQuery();
+    </script>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+      Division Graphics &#9900; 519 Madeup Blvd &#9900; Springfield, MO 65807 &#9900; 417-417-4174
+    </footer>
+</body>
+
+</html>

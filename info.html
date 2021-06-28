@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fit for Fun Fitness Club</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Sign Up Today!</h1>
+    </header>
+    <div class="center">
+      <form method="get" action="thankyou.html">
+        <div class="bold">
+          <label for="fname">
+            First Name:
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name"/>
+          </label>
+        </div>
+        <div class="bold">
+          <label for="lname">
+            Last Name:
+            <input type="text" name="lname" id="lname" required placeholder="Last Name"/>
+          </label>
+        </div>
+        <div class="bold">
+          <label for="email">
+            Email:
+            <input type="email" name="email" id="email" required placeholder="Email"/>
+          </label>
+        </div>
+        <div class="bold">
+          <label for="phone">
+            Phone Number:
+            <input type="tel" name="phone" id="phone" required placeholder="Phone"/>
+          </label>
+        </div>
+        <div class="bold">
+          <label for="contact">
+            Best way to reach:
+            <select name="contact" id="contact">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+              <option value="Text">Text</option>
+              <option value="Owl">Owl</option>
+            </select>
+          </label>
+          </div>
+          <div class="bold">
+            <label>
+              Classes you will like to take:
+            </label>
+          </div>
+          <label for="cross-training">Cross Training
+            <input type="checkbox" id="cross-training" name="cross-training" value="class">
+          </label>
+          <label for="sprint">Sprint
+            <input type="checkbox" id="sprint" name="sprint" value="class">
+          </label>
+          <label for="bodypump">Body Pump
+            <input type="checkbox" id="bodypump" name="bodypump" value="class">
+          </label>
+          <label for="advancedcrosstrain">Advanced Cross Training
+            <input type="checkbox" id="advancedcrosstrain" name="advancedcrosstrain" value="class">
+          </label>
+          <label for="spin">Spin
+            <input type="checkbox" id="spin" name="spin" value="class">
+          </label>
+          <label for="bodycombat">Body Combat
+            <input type="checkbox" id="bodycombat" name="bodycombat" value="class">
+          </label>
+          <label for="zumba">Zumba
+            <input type="checkbox" id="zumba" name="zumba" value="class">
+          </label>
+          <label for="mixxedfit">Mixxed Fit
+            <input type="checkbox" id="mixxedfit" name="mixxedfit" value="class">
+          </label>
+          <label for="stepinterval">Step Interval
+            <input type="checkbox" id="stepinterval" name="stepinterval" value="class">
+          </label>
+          <div class="bold">
+            <label>
+              Preffered Class Time:
+            </label>
+          </div>
+          <label for="am">AM
+            <input type="radio" class="radio" name="ampm" value="am" id="am" />
+          </label>
+          <label for="pm">PM
+            <input type="radio" class="radio" name="ampm" value="pm" id="pm" />
+          </label>
+          <br />
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+    <br />
+    <footer>
+      Division Graphics &#9900; 519 Madeup Blvd &#9900; Springfield, MO 65807 &#9900; 417-417-4174
+    </footer>
+  </body>
+</html>
